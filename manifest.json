@@ -1,17 +1,21 @@
 {
 	"manifest_version": 3,
 	"name": "Fuck YouTube Shorts UI",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "This extension loads all YouTube shorts in the regular video player since the YouTube Shorts UI is fucking awful and doesn't load half the time. Fuck you, YouTube, fix your shit.",
 	"icons": {
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png"
 	},
-	"background": {
-		"service_worker": "background.js"
-	},
-	"permissions": ["storage", "tabs"],
+	"permissions": ["storage"],
+	"content_scripts": [
+		{
+			"matches": ["*://www.youtube.com/*"],
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	],
 	"action": {
 		"default_popup": "popup.html",
 		"default_icon": "icons/icon48.png"
