@@ -9,13 +9,6 @@
 		"128": "icons/icon128.png"
 	},
 	"permissions": ["storage", "webNavigation", "tabs"],
-	"content_scripts": [
-		{
-			"matches": ["*://www.youtube.com/*"],
-			"js": ["content.js"],
-			"run_at": "document_start"
-		}
-	],
 	"action": {
 		"default_popup": "popup.html",
 		"default_icon": "icons/icon48.png"
