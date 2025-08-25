@@ -8,7 +8,7 @@
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png"
 	},
-	"permissions": ["storage"],
+	"permissions": ["storage", "webNavigation", "tabs"],
 	"content_scripts": [
 		{
 			"matches": ["*://www.youtube.com/*"],
@@ -19,5 +19,8 @@
 	"action": {
 		"default_popup": "popup.html",
 		"default_icon": "icons/icon48.png"
+	},
+	"background": {
+		"service_worker": "background.js"
 	}
 }
