@@ -1,4 +1,4 @@
-# 🚫 'Fuck YouTube Shorts UI' Extension
+# 🚫 'F*** YouTube Shorts UI' Extension
 
 Redirects YouTube Shorts to the regular player.
 
@@ -7,6 +7,7 @@ Redirects YouTube Shorts to the regular player.
 Because the UI doesn't load 90% of the time.
 
 You cannot:
+
 - Like the video
 - Dislike the video
 - Read the comments to discuss what you thought of the video
@@ -29,7 +30,7 @@ I don't know if it's got to do with adblock or something, but it's annoying as h
 1. Clone/download repo
 2. Go to `chrome://extensions` or `edge://extensions`
 3. Enable Developer mode
-4. Load unpacked & select folder
+4. Press `Load unpacked` and then select the cloned/downloaded folder
 
 ## 📝 Permissions
 
@@ -46,3 +47,5 @@ I don't know if it's got to do with adblock or something, but it's annoying as h
 ## 📄 License
 
 MIT (or your preferred license, idk really, use it like you want, but only in a legal way or something?)
+
+Feel free to change any file before adding it to your browser if you don't trust strangers on the Internet :)
