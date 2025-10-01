@@ -27,10 +27,16 @@ I don't know if it's got to do with adblock or something, but it's annoying as h
 
 ## 🛠️ Install
 
+### method 1: for the non tech-savvy folks
+
+In the right sidebar, you will see **'Releases'**, click that, then download any `.zip` or `.rar` file, extract it somewhere (with WinRAR, 7-Zip, ...), then follow steps 2-4 below.
+
+### method 2: for git-users
+
 1. Clone/download repo
-2. Go to `chrome://extensions` or `edge://extensions`
+2. Go to `chrome://extensions` or `edge://extensions` in your browser (the search bar)
 3. Enable Developer mode
-4. Press `Load unpacked` and then select the cloned/downloaded folder
+4. Press `Load unpacked` and then select the cloned/downloaded folder (wherever you put it, probably your Downloads folder)
 
 ## 📝 Permissions
 
@@ -49,3 +55,7 @@ I don't know if it's got to do with adblock or something, but it's annoying as h
 MIT (or your preferred license, idk really, use it like you want, but only in a legal way or something?)
 
 Feel free to change any file before adding it to your browser if you don't trust strangers on the Internet :)
+
+## 🆕 Contributing
+
+Feel free to open issues or PRs if you want to add features or fix bugs! It's the first time I've made a browser extension, so I might have made some mistakes or missed some edge cases.
