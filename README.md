@@ -1,4 +1,4 @@
-# 🚫 'F*** YouTube Shorts UI' Extension
+# 🚫 'Redirect YouTube Shorts UI' Extension
 
 Redirects YouTube Shorts to the regular player.
 
@@ -15,9 +15,9 @@ You cannot:
 - Scroll forwards in the video
 - Scroll backwards in the video
 
-... whenever this happens, and it happens to goddamn much
+... whenever this happens, and it happens too gosh-darn much
 
-I don't know if it's got to do with adblock or something, but it's annoying as hell, so fuck your dumb UI, YouTube!
+I don't know if it's got to do with adblock or something, but it's annoying as heck ... so, fix your poophead UI, YouTube!
 
 ## ⚡ Features
 
